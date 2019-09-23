@@ -1,0 +1,55 @@
+.side {
+    position: fixed;
+    width:7%;
+    height: 95%;
+    left: 2%;
+    background:rgb(255, 212, 70);
+}
+
+.side__navigation {
+    display: flex;
+    align-items: center;
+    height: 90%;
+    
+}
+
+.side__logo a{
+    color:black;
+    
+    text-decoration: none; 
+}
+
+ul.listeleme {
+    list-style-type: none;
+    padding-left:1;
+    margin: -5%;
+    
+    }
+    
+
+.side__navigation-items a {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    margin-top:35%;
+    
+}
+
+.side__navigation-items a:hover,
+.side__navigation-items a:active {
+    color: red;
+}
+
+.side__navigation-itemss a {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    margin-top:200%;
+}
+
+.side__navigation-itemss a:hover,
+.side__navigation-itemss a:active {
+    color: red;
+}
